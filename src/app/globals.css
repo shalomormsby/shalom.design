@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "@opencosmos/ui/theme.css";
+@import "@opencosmos/ui/globals.css";
+@import "@opencosmos/ui/styles.css";
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
